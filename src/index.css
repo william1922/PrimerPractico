@@ -1,0 +1,17 @@
+.background-page{
+    background-image: radial-gradient(circle, rgba(31, 26, 26, 0.849) 0%, rgba(0, 0, 0, 0.795) 50%, rgba(20, 19, 19, 0.842) 100%);
+    height: 91.3vh;
+}
+
+.background-page-editar{
+    background-image: radial-gradient(circle, rgba(31, 26, 26, 0.849) 0%, rgba(0, 0, 0, 0.795) 50%, rgba(20, 19, 19, 0.842) 100%);
+}
+
+.nombre-Page {
+    color: rgb(235, 96, 96);
+}
+
+p {
+color: rgb(231, 220, 220);
+font-size: 1.2rem;
+}

@@ -1,0 +1,16 @@
+.header{
+    background-color: rgb(224, 66, 66);
+}
+
+.text-navbar{
+    cursor: pointer;
+}
+
+.boton-a-registro{
+    background-color: rgb(233, 184, 87) !important;
+    color: rgb(241, 235, 235);
+}
+
+.boton-a-registro:hover {
+    background-color: rgb(226, 164, 38) !important;   
+}

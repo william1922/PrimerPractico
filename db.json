@@ -1,0 +1,108 @@
+{
+  "peliculas": [
+    {
+      "nombre": "Titanic",
+      "genero": "Drama",
+      "anio": "1992",
+      "resumen": "Jack es un joven artista de clase trabajadora que gana su boleto para el Titanic en un juego de cartas. Rose es una joven rica y comprometida con un hombre de negocios llamado Caledon Hockley. A pesar de las diferencias sociales y económicas, Jack y Rose se enamoran y tratan de escapar juntos del barco antes de que se hunda.",
+      "director": "James Cameron",
+      "imagen": "https://th.bing.com/th/id/OIP.TPVORp7BtB4POVQRWBEJIwHaEK?rs=1&pid=ImgDetMain",
+      "id": "1"
+    },
+    {
+      "nombre": "Y donde esta el piloto?",
+      "genero": "Comedia",
+      "anio": "1981",
+      "resumen": "Cuando el piloto, el captain Oveur (Peter Graves), su copiloto y numerosos pasajeros de un avión comercial caen enfermos en pleno vuelo intoxicados por la comida, Ted Striker (Robert Hays), un ex piloto de caza, debe vencer su miedo a volar, causado por un trauma psicológico sufrido durante la guerra, y tomar los mandos del avión, conducirlo a su destino y hacerlo aterrizar en malas condiciones atmosféricas, guiado por los controladores de tráfico aéreo Steve McCrosky (Lloyd Bridges) y Rex Kramer (Robert Stack). La presencia de la ex novia de Striker, Elanie (Julie Hagerty), como azafata a bordo aumenta aún más la tensión de Striker. Uno de los pasajeros, el médico Dr. Rumack (Leslie Nielsen) se suma al pánico que estalla a bordo.",
+      "director": "Jim Abrahams",
+      "imagen": "https://th.bing.com/th/id/OIP.Otj4_jIKSPcGebO3Sf_nZwHaEK?rs=1&pid=ImgDetMain",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "nombre": "Toy Story",
+      "genero": "Animado",
+      "anio": "1995",
+      "resumen": "Los juguetes de Andy, un niño de 6 años, temen que haya llegado su hora y que un nuevo regalo de cumpleaños les sustituya en el corazón de su dueño. Woody, un vaquero que ha sido hasta ahora el juguete favorito de Andy, trata de tranquilizarlos hasta que aparece Buzz Lightyear, un héroe espacial dotado de todo tipo de avances tecnológicos. Woody es relegado a un segundo plano. Su constante rivalidad se transformará en una gran amistad cuando ambos se pierden en la ciudad sin saber cómo volver a casa.",
+      "director": "John Lasseter",
+      "imagen": "https://i.pinimg.com/originals/04/a3/5e/04a35edbaabbdcbff503a7c69c15b584.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Avatar",
+      "genero": "Ciencia Ficcion",
+      "anio": "2009",
+      "resumen": "Año 2154. Jake Sully (Sam Worthington), un ex-marine condenado a vivir en una silla de ruedas, sigue siendo, a pesar de ello, un auténtico guerrero. Precisamente por ello ha sido designado para ir a Pandora, donde algunas empresas están extrayendo un mineral extraño que podría resolver la crisis energética de la Tierra. Para contrarrestar la toxicidad de la atmósfera de Pandora, se ha creado el programa Avatar, gracias al cual los seres humanos mantienen sus conciencias unidas a un avatar: un cuerpo biológico controlado de forma remota que puede sobrevivir en el aire letal. Esos cuerpos han sido creados con ADN humano, mezclado con ADN de los nativos de Pandora, los Na'vi. Convertido en avatar, Jake puede caminar otra vez. Su misión consiste en infiltrarse entre los Na'vi, que se han convertido en el mayor obstáculo para la extracción del mineral. Pero cuando Neytiri, una bella Na'vi (Zoe Saldana), salva la vida de Jake, todo cambia: Jake, tras superar ciertas pruebas, es admitido en su clan. Mientras tanto, los hombres esperan los resultados de la misión de Jake.",
+      "director": "James Cameron",
+      "imagen": "https://image.tmdb.org/t/p/original/vwBYdah1g5mMAqDtlPnjSM7yxp6.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Bastardos sin gloria",
+      "genero": "Drama",
+      "anio": "2009",
+      "resumen": "Segunda Guerra Mundial (1939-1945). En la Francia ocupada por los alemanes, Shosanna Dreyfus (Mélanie Laurent) presencia la ejecución de su familia por orden del coronel Hans Landa (Christoph Waltz). Después de huir a París, adopta una nueva identidad como propietaria de un cine. En otro lugar de Europa, el teniente Aldo Raine (Brad Pitt) adiestra a un grupo de soldados judíos ('The Basterds') para atacar objetivos concretos. Los hombres de Raine y una actriz alemana (Diane Kruger), que trabaja para los aliados, deben llevar a cabo una misión para hacer caer a los jefes del Tercer Reich. El destino quiere que todos se encuentren bajo la marquesina de un cine donde Shosanna espera para vengarse.",
+      "director": "Quentin Tarantino",
+      "imagen": "https://th.bing.com/th/id/R.762c29c86c9307a31824812d09a413fd?rik=xPxwtMXkBqtjjA&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "6",
+      "nombre": "Django sin cadenas",
+      "genero": "Western",
+      "anio": "2012",
+      "resumen": "En Texas, dos años antes de estallar la Guerra Civil Americana, King Schultz (Christoph Waltz), un cazarrecompensas alemán que sigue la pista a unos asesinos para cobrar por sus cabezas, le promete al esclavo negro Django (Jamie Foxx) dejarlo en libertad si le ayuda a atraparlos. Él acepta, pues luego quiere ir a buscar a su esposa Broomhilda (Kerry Washington), esclava en una plantación del terrateniente Calvin Candie (Leonardo DiCaprio).",
+      "director": "Quentin Tarantino",
+      "imagen": "https://image.tmdb.org/t/p/original/aWdrrXWWejwXFEqiPR1kuK4WvIS.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Parasito",
+      "genero": "Drama",
+      "anio": "2019",
+      "resumen": "Tanto Gi Taek (Song Kang-ho) como su familia están sin trabajo. Cuando su hijo mayor, Gi Woo (Choi Woo-sik), empieza a dar clases particulares en casa de Park (Lee Seon-gyun), las dos familias, que tienen mucho en común pese a pertenecer a dos mundos totalmente distintos, comienzan una interrelación de resultados imprevisibles.",
+      "director": "Bong Joon Ho",
+      "imagen": "https://th.bing.com/th/id/OIP.XNf4oaYJg7cOFBovh1VriQHaEJ?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "8",
+      "nombre": "Terminator 2",
+      "genero": "Ciencia Ficcion",
+      "anio": "1991",
+      "resumen": "Sarah Connor, la madre soltera del rebelde John Connor, está ingresada en un psiquiátrico. Algunos años antes, un viajero del tiempo le había revelado que su hijo sería el salvador de la humanidad en un futuro -año 2029- dominado por las máquinas. Se convirtió entonces en una especie de guerrera y educó a su hijo John en tácticas de supervivencia. Esta es la razón por la que está recluida en un manicomio. Cuando un nuevo androide mejorado, un T-1000, llega del futuro para asesinar a John, un viejo modelo T-800 será enviado para protegerle.",
+      "director": "James Cameron",
+      "imagen": "https://originalvintagemovieposters.com/wp-content/uploads/2021/06/Terminator-2-5942-scaled-1034x1536.jpg"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Facundo",
+      "apellido": "Gonzales",
+      "email": "facu_goz@gmail.com",
+      "password": "qwerty123",
+      "rol": [
+        "admin"
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Francis",
+      "apellido": "Torres",
+      "email": "franc_te",
+      "password": "qwerty1234",
+      "rol": [
+        "user"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "mariano",
+      "apellido": "nomare",
+      "email": "maariano@gmail.com",
+      "password": "123456",
+      "rol": [
+        "user"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+.imagen-info {
+    height: 550px;
+    width: 380px;
+}
+
+.resumen-info{
+    color: rgb(233, 221, 221) !important;
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.resumen-info::-webkit-scrollbar{
+    border-radius: 10px;
+}
+
+.resumen-info::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    height: 10px;
+    background: rgba(155, 9, 9, 0.692);
+}
