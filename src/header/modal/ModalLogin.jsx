@@ -3,9 +3,12 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './ModalLogin.css'
 import Form from 'react-bootstrap/Form';
+import { useNavigate } from 'react-router-dom';
 
 const ModalLogin = ({setUserInfo}) =>{
     const [show, setShow] = useState(false);
+
+    const navigate = useNavigate()
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -33,6 +36,7 @@ const ModalLogin = ({setUserInfo}) =>{
     }
     setUserInfo(usuarioMatch)
     localStorage.setItem("userInfo", JSON.stringify(usuarioMatch))
+    navigate('/')
   }
 
   return (

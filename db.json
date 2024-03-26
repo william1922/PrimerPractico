@@ -71,6 +71,24 @@
       "resumen": "Sarah Connor, la madre soltera del rebelde John Connor, está ingresada en un psiquiátrico. Algunos años antes, un viajero del tiempo le había revelado que su hijo sería el salvador de la humanidad en un futuro -año 2029- dominado por las máquinas. Se convirtió entonces en una especie de guerrera y educó a su hijo John en tácticas de supervivencia. Esta es la razón por la que está recluida en un manicomio. Cuando un nuevo androide mejorado, un T-1000, llega del futuro para asesinar a John, un viejo modelo T-800 será enviado para protegerle.",
       "director": "James Cameron",
       "imagen": "https://originalvintagemovieposters.com/wp-content/uploads/2021/06/Terminator-2-5942-scaled-1034x1536.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "La La Land",
+      "genero": "Musical",
+      "anio": "2016",
+      "resumen": "Mia (Emma Stone), una joven aspirante a actriz que trabaja como camarera mientras acude a castings, y Sebastian (Ryan Gosling), un pianista de jazz que se gana la vida tocando en sórdidos tugurios, se enamoran, pero su gran ambición por llegar a la cima en sus carreras artísticas amenaza con separarlos. ",
+      "director": "Damien Chazelle",
+      "imagen": "https://th.bing.com/th/id/OIP._tw7yMJxA7RFQBIKDXGW0QHaLH?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "10",
+      "nombre": "Godzila",
+      "genero": "Ciencia Ficcion",
+      "anio": "2014",
+      "resumen": "Un monstruo marino prehistórico, que ha permanecido décadas aletargado después de que la humanidad tratara de destruirlo, se enfrenta a malvadas criaturas que, animadas por la arrogancia científica del hombre, amenazan la vida de la raza humana.",
+      "director": "Gareth Edwards",
+      "imagen": "https://th.bing.com/th/id/OIP.O2Zs4-ajROW4YG2jm-2HlgHaKj?w=1000&h=1426&rs=1&pid=ImgDetMain"
     }
   ],
   "usuarios": [
@@ -88,14 +106,14 @@
       "id": "2",
       "nombre": "Francis",
       "apellido": "Torres",
-      "email": "franc_te",
+      "email": "franc_te@gmail.com",
       "password": "qwerty1234",
       "rol": [
         "user"
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "mariano",
       "apellido": "nomare",
       "email": "maariano@gmail.com",

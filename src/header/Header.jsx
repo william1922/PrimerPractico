@@ -25,9 +25,9 @@ const Header = ({userInfo, setUserInfo}) => {
             <ModalLogin setUserInfo={setUserInfo}/>
             <button className='boton-a-registro btn' onClick={()=>{navigate('/registro')}}>Registrarse</button>
         </div>:
-        <div className='col-3 d-flex justify-content-evenly'>
+        <div className='col-4 d-flex justify-content-evenly'>
+           { userInfo.rol.includes('admin') && <button className='boton-a-registro btn' onClick={()=>{navigate('/agregar-pelicula')}}>Agregar Pelicula</button>}
             <button className='boton-a-registro btn' onClick={()=>{navigate('/catalogo')}}>Catalogo</button>
-            <button>Cuenta</button>
             <button className='boton-a-registro btn' onClick={cerrarSesion}>Salir</button>
         </div>
     }

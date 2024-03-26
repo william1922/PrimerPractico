@@ -33,7 +33,7 @@ const Registro = () => {
     }
 
     let nuevoUsuario = {
-        id: usuariosArray.length + 1,
+        id: `${usuariosArray.length + 1}`,
         nombre : nombre,
         apellido : apellido,
         email: email,

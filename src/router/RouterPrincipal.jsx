@@ -6,6 +6,8 @@ import PeliculaInfo from '../pelicula info/PeliculaInfo'
 import Header from '../header/Header'
 import Registro from '../Registro/Registro'
 import EditarPelicula from '../editar pelicula/EditarPelicula'
+import RutaProtegida from '../Ruta protegida/RutaProtegida'
+import AgregarPelicula from '../Agregar Pelicula/AgregarPelicula'
 
 export const RouterPrincipal = () => {
 
@@ -20,6 +22,7 @@ export const RouterPrincipal = () => {
     }
 
     const [userInfo, setUserInfo] = useState(JSON.parse(localStorage.getItem("userInfo"))|| null);
+    const [rolUser, setRolUser] = useState([])
 
     const [peliculasMain, setPeliculasMain] = useState([])
 
@@ -32,22 +35,32 @@ export const RouterPrincipal = () => {
             console.log(error);
         }
     }
-    
+    console.log(rolUser.includes('admin'));
     useEffect(()=>{
-        if(peliculasMain.length == 0)
+        if(peliculasMain.length == 0){
         getPeliculas()
+    }
     },[peliculasMain])
 
+    useEffect(()=>{
+        if(userInfo){
+            setRolUser(userInfo.rol)
+        }
+    },[userInfo])
     return (
         <>
         <BrowserRouter>
         <Header userInfo={userInfo} setUserInfo={setUserInfo}/>
         <Routes>
             <Route path='/' element={<HomePage/>}/>
-            <Route path='/catalogo' element={<MainPage peliculasMain={peliculasMain}/>}/>
+            <Route path='/catalogo' element={<MainPage peliculasMain={peliculasMain} userInfo={userInfo}/>}/>
             <Route path='/pelicula-info/:id' element={<PeliculaInfo getPeliById={getPeliById}/>}/>
             <Route path='/registro' element={<Registro/>}/>
+
+            <Route element={<RutaProtegida auntenticado={rolUser.includes('admin')}/>}>
             <Route path='/editar-pelicula/:id' element={<EditarPelicula getPeliById={getPeliById} getPeliculas={getPeliculas}/>}/>
+            <Route path='/agregar-pelicula' element={<AgregarPelicula peliculasMain={peliculasMain} getPeliculas={getPeliculas}/>}/>
+            </Route>
         </Routes>
         </BrowserRouter>
         </>
