@@ -41,7 +41,7 @@ const ModalLogin = ({setUserInfo}) =>{
 
   return (
     <>
-      <button className='boton-Login btn' onClick={handleShow}>
+      <button className='boton-Login btn col-xs-4 mx-2 my-1 my-lg-0' onClick={handleShow}>
         Login
       </button>
 

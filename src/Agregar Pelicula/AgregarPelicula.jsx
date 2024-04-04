@@ -40,27 +40,27 @@ const AgregarPelicula = ({peliculasMain, getPeliculas}) =>{
     return (
         <div className='background-page-editar'>
             <Form onSubmit={handleAgregarPelicula} className='d-flex flex-column py-3 align-items-center'>
-      <Form.Group className="mb-3 col-5" controlId="formGroupNombre">
+      <Form.Group className="mb-3 col-10 col-sm-8 col-md-7 col-lg-5" controlId="formGroupNombre">
         <Form.Label className='text-white'>Nombre</Form.Label>
         <Form.Control type="text" name="nombre"/>
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupGenero">
+      <Form.Group className="mb-3 col-10 col-sm-8 col-md-7 col-lg-5" controlId="formGroupGenero">
         <Form.Label className='text-white'>Genero</Form.Label>
         <Form.Control type="text" name="genero"/>
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupAnio">
+      <Form.Group className="mb-3 col-10 col-sm-8 col-md-7 col-lg-5" controlId="formGroupAnio">
         <Form.Label className='text-white'>Anio</Form.Label>
         <Form.Control type="text" name="anio"/>
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupResumen">
+      <Form.Group className="mb-3 col-10 col-sm-8 col-md-7 col-lg-5" controlId="formGroupResumen">
         <Form.Label className='text-white'>Resumen</Form.Label>
         <Form.Control as="textarea" style={{ height: '100px' }} name="resumen"/>
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupDirector">
+      <Form.Group className="mb-3 col-10 col-sm-8 col-md-7 col-lg-5" controlId="formGroupDirector">
         <Form.Label className='text-white'>Director</Form.Label>
         <Form.Control type="text" name="director"/>
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupImagen">
+      <Form.Group className="mb-3 col-10 col-sm-8 col-md-7 col-lg-5" controlId="formGroupImagen">
         <Form.Label className='text-white'>Imagen</Form.Label>
         <Form.Control type="text" name="imagen"/>
       </Form.Group>

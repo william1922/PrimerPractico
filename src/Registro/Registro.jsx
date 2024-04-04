@@ -55,23 +55,23 @@ const Registro = () => {
     return (
         <div className='background-page'>
         <Form onSubmit={handleRegistro} className='d-flex flex-column py-3 align-items-center'>
-      <Form.Group className="mb-3 col-5" controlId="formGroupNombre">
+      <Form.Group className="mb-3 col-10 col-sm-7 col-lg-5" controlId="formGroupNombre">
         <Form.Label className='text-white'>Nombre</Form.Label>
         <Form.Control type="text" name="nombre" />
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupApellido">
+      <Form.Group className="mb-3 col-10 col-sm-7 col-lg-5" controlId="formGroupApellido">
         <Form.Label className='text-white'>Apellido</Form.Label>
         <Form.Control type="text" name="apellido" />
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupEmail">
+      <Form.Group className="mb-3 col-10 col-sm-7 col-lg-5" controlId="formGroupEmail">
         <Form.Label className='text-white'>Email</Form.Label>
         <Form.Control type="email" placeholder="fede@gmail.com" name="email" />
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupPassword">
+      <Form.Group className="mb-3 col-10 col-sm-7 col-lg-5" controlId="formGroupPassword">
         <Form.Label className='text-white'>Password</Form.Label>
         <Form.Control type="password" placeholder="Password" name="password"/>
       </Form.Group>
-      <Form.Group className="mb-3 col-5" controlId="formGroupConfirmarPassword">
+      <Form.Group className="mb-3 col-10 col-sm-7 col-lg-5" controlId="formGroupConfirmarPassword">
         <Form.Label className='text-white'>Confirmar Password</Form.Label>
         <Form.Control type="password" placeholder="Confirmar Password" name="confirmarPassword"/>
       </Form.Group>

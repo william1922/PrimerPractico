@@ -1,3 +1,8 @@
+.pelicula-info{
+    background-image: radial-gradient(circle, rgba(31, 26, 26, 0.849) 0%, rgba(0, 0, 0, 0.795) 50%, rgba(20, 19, 19, 0.842) 100%);
+    background-size: contain;
+}
+
 .imagen-info {
     height: 550px;
     width: 380px;
@@ -9,6 +14,7 @@
     height: 400px;
     overflow: auto;
     text-overflow: ellipsis;
+    font-size: 1.1rem;
 }
 
 .resumen-info::-webkit-scrollbar{

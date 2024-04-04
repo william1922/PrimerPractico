@@ -27,6 +27,7 @@
     overflow-x: hidden;
     white-space: wrap;
     text-overflow: ellipsis;
+    font-size: 0.9rem;
 }
 
 .genero-anio{

@@ -11,9 +11,9 @@ const PeliculaInfo = ({getPeliById}) => {
     },[])
 
     return (
-        <div className="background-page py-3">
-            <div className="container d-flex flex-row justify-content-center">
-                <div className="col-5 imagen-info">
+        <div className="pelicula-info py-3">
+            <div className="container d-flex  flex-column flex-lg-row justify-content-center align-items-center">
+                <div className="imagen-info">
                     {peliculaInfo? <img className="imagen-info rounded" src={`${peliculaInfo.imagen}`}/> : <h4 className="imagen-info">Cargando</h4>}
                 </div>
                 <div className="col-7 d-flex flex-column align-items-center my-1">
